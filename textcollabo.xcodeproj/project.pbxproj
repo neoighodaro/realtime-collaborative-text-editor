@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		883195410B37AC9A3F8D09C8 /* Pods_textcollabo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A6E71658C23A37D596C06E0 /* Pods_textcollabo.framework */; };
+		B55081B51F1A3DF200113ABC /* TextEditorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55081B41F1A3DF200113ABC /* TextEditorViewController.swift */; };
 		B5D825971F1A24970055CC62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D825961F1A24970055CC62 /* AppDelegate.swift */; };
 		B5D825991F1A24970055CC62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D825981F1A24970055CC62 /* ViewController.swift */; };
 		B5D8259C1F1A24970055CC62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D8259A1F1A24970055CC62 /* Main.storyboard */; };
@@ -15,6 +17,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A6E71658C23A37D596C06E0 /* Pods_textcollabo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_textcollabo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7D1EB1742C24CC59A799FF /* Pods-textcollabo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textcollabo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-textcollabo/Pods-textcollabo.debug.xcconfig"; sourceTree = "<group>"; };
+		AB4927A7066515E3676152E1 /* Pods-textcollabo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-textcollabo.release.xcconfig"; path = "Pods/Target Support Files/Pods-textcollabo/Pods-textcollabo.release.xcconfig"; sourceTree = "<group>"; };
+		B55081B41F1A3DF200113ABC /* TextEditorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextEditorViewController.swift; sourceTree = "<group>"; };
 		B5D825931F1A24970055CC62 /* textcollabo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = textcollabo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5D825961F1A24970055CC62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5D825981F1A24970055CC62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +35,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883195410B37AC9A3F8D09C8 /* Pods_textcollabo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1AFD01A576372EF256C2F9D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D7D1EB1742C24CC59A799FF /* Pods-textcollabo.debug.xcconfig */,
+				AB4927A7066515E3676152E1 /* Pods-textcollabo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5679E6E3DACABA0928A513B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A6E71658C23A37D596C06E0 /* Pods_textcollabo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B5D8258A1F1A24970055CC62 = {
 			isa = PBXGroup;
 			children = (
 				B5D825951F1A24970055CC62 /* textcollabo */,
 				B5D825941F1A24970055CC62 /* Products */,
+				1AFD01A576372EF256C2F9D4 /* Pods */,
+				5679E6E3DACABA0928A513B0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +86,7 @@
 				B5D8259D1F1A24970055CC62 /* Assets.xcassets */,
 				B5D8259F1F1A24970055CC62 /* LaunchScreen.storyboard */,
 				B5D825A21F1A24970055CC62 /* Info.plist */,
+				B55081B41F1A3DF200113ABC /* TextEditorViewController.swift */,
 			);
 			path = textcollabo;
 			sourceTree = "<group>";
@@ -71,9 +98,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B5D825A51F1A24970055CC62 /* Build configuration list for PBXNativeTarget "textcollabo" */;
 			buildPhases = (
+				E0CC85A787AA6FA46839FB7C /* [CP] Check Pods Manifest.lock */,
 				B5D8258F1F1A24970055CC62 /* Sources */,
 				B5D825901F1A24970055CC62 /* Frameworks */,
 				B5D825911F1A24970055CC62 /* Resources */,
+				3A256FA28641ED35795BF5C3 /* [CP] Embed Pods Frameworks */,
+				9F97441C9129CA93308A48DB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,6 +162,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3A256FA28641ED35795BF5C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textcollabo/Pods-textcollabo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F97441C9129CA93308A48DB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-textcollabo/Pods-textcollabo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0CC85A787AA6FA46839FB7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B5D8258F1F1A24970055CC62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +217,7 @@
 			files = (
 				B5D825991F1A24970055CC62 /* ViewController.swift in Sources */,
 				B5D825971F1A24970055CC62 /* AppDelegate.swift in Sources */,
+				B55081B51F1A3DF200113ABC /* TextEditorViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +336,12 @@
 		};
 		B5D825A61F1A24970055CC62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D7D1EB1742C24CC59A799FF /* Pods-textcollabo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
 				INFOPLIST_FILE = textcollabo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.creativitykills.textcollabo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -270,10 +351,12 @@
 		};
 		B5D825A71F1A24970055CC62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB4927A7066515E3676152E1 /* Pods-textcollabo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = FMQ6R58UAV;
 				INFOPLIST_FILE = textcollabo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.creativitykills.textcollabo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +383,7 @@
 				B5D825A71F1A24970055CC62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
