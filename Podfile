@@ -8,5 +8,4 @@ target 'textcollabo' do
   # Pods for anonchat
   pod 'Alamofire'
   pod 'PusherSwift'
-  pod 'JSQMessagesViewController'
 end

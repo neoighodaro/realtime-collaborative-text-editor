@@ -111,8 +111,8 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0aa-Pe-TWR" userLabel="Collab View">
                                 <rect key="frame" x="0.0" y="636" width="375" height="31"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="10 People Collaborating" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IW-MG-AIN">
-                                        <rect key="frame" x="11" y="1" width="164" height="21"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="0 Characters" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6IW-MG-AIN">
+                                        <rect key="frame" x="11" y="1" width="129" height="21"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.0" green="0.96344703435897827" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="13"/>
@@ -137,7 +137,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Untitled Document" id="5PS-Yc-wWc"/>
                     <connections>
-                        <outlet property="collabLabel" destination="6IW-MG-AIN" id="2KW-ep-69V"/>
+                        <outlet property="charactersLabel" destination="6IW-MG-AIN" id="Rxb-5l-GpQ"/>
                         <outlet property="textView" destination="NDY-O0-X4P" id="JJp-x0-Ono"/>
                     </connections>
                 </viewController>
