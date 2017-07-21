@@ -4,4 +4,4 @@ This is a sample of how to create a realtime text editor on iOS using Pusher. Yo
 ![](https://dl.dropbox.com/s/b8gseqscu2a65hd/realtime-collaborative-text-editor-ios-pusher.gif)
 
 ### Requirements
-For this to work, you need to have XCode installed on your machine. You also need to have a Pusher account. You can follow the [tutorial](#tutorial.md)
+For this to work, you need to have XCode installed on your machine. You also need to have a Pusher account. You can follow the [tutorial](tutorial.md)
